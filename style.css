@@ -1,0 +1,186 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  margin-bottom: 200px;
+  background-color: rgb(252, 213, 18);
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+.image1 {
+  margin-right: 30px
+}
+
+
+.image2 {
+  margin-left: 30px;
+}
+
+img {
+  border-radius: 10px;
+}
+.gif {
+  margin-left: -1300px;
+}
+
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0px;
+  background-image: url('https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_142/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/1/9/192b4a9522dd2a6e7489ed62ee97e6504fd8998a/20-facts-might-know-kill-bill-vol-1-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:rgba(0, 0, 0, 0.501);
+  padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+  right: 300px;
+  display: flex;
+  border-radius: 20px;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: rgb(255, 255, 255);
+}
+
+/* Main character */
+.main-character {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  margin-top: 30px;
+  width: 800px;
+  border-top-right-radius: 50px;
+}
+ 
+/* Director */
+.director {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row-reverse;
+  width: 800px;
+  border-bottom-left-radius: 50px;
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+
+
+/* Typography */
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Helvetica', sans-serif, bold;
+  font-size: 50px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'Helvetica', sans-serif, thin;
+}
+
+h2 {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Helvetica', sans-serif, bold;
+  font-size: 50px
+}
+h3 {
+  margin-left: 20px;
+  margin-top: -40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35;
+  color: rgba(255, 0, 0, 0.631)
+}
+
+h4 {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Helvetica', sans-serif, bold;
+  font-size: 50px
+}
+.year {
+  color: rgb(251, 213, 18);
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.quote {
+  margin-right: 500px;
+  margin-left: 570px;
+  margin-top: -100px;
+  color: rgb(0, 0, 0);
+  font-family: 'Helvetica', sans-serif, black;
+  font-size: 80px
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 0px;
+  height: 400px;
+  width: 800px;
+  margin-top: -320px;
+}
+
+.video-wrapper iframe {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
